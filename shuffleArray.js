@@ -20,5 +20,4 @@ function shuffleArray(array) {
 
     return tempArray;
     //empty the temporary array after returning it
-    tempArray = [];
 }
