@@ -4,6 +4,8 @@ var tempArray = [];
 //call the function to shuffle your array, pass your array as a parameter and will
 //be returned as a reshuffled array e.g var array = shuffleArray(["1", "2", "3", "4"]);
 function shuffleArray(array) {
+    //make sure the tempArray is empty. 
+    tempArray = [];
     while (tempArray.length != array.length) {
         for (let i = 0; i < array.length; i++) {
             var randomNo = Math.floor(Math.random() * (array.length));
